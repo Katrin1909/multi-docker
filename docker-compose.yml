@@ -20,7 +20,7 @@ services:
       - ./server:/app
     environment:
       - REDIS_HOST=redis
-      - REDIS_POST=6379 # defoult redis port - see the documentation on hub.docker.com
+      - REDIS_PORT=6379 # defoult redis port - see the documentation on hub.docker.com
       - PGUSER=postgres
       - PGHOST=postgres
       - PGDATABASE=postgres
